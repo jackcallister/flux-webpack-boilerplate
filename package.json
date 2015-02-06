@@ -1,0 +1,23 @@
+{
+  "name": "flux-boilerplate",
+  "version": "0.0.1",
+  "description": "A simple folder structure",
+  "main": "src/index.js",
+  "author": "Jack Callister",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "object-assign": "^2.0.0",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.9.1",
+    "jsx-loader": "^0.12.2",
+    "sass-loader": "^0.4.0-beta.1",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "start": "cd dist && python -m SimpleHTTPServer"
+  }
+}
