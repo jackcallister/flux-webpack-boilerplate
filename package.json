@@ -20,6 +20,6 @@
   "scripts": {
     "start": "npm run webpack & npm run serve",
     "webpack": "webpack -w",
-    "serve": "cd site && python -m SimpleHTTPServer"
+    "serve": "cd dist && python -m SimpleHTTPServer"
   }
 }
